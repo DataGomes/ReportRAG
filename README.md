@@ -1,6 +1,6 @@
 # Report Generator
 
-This library generates reports based on scientific literature queries using Scopus, Voyage AI, and Together AI.
+This library generates reports based on scientific literature queries using Scopus, Voyage AI, and OpenaiAI.
 
 ## Installation
 
