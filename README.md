@@ -51,7 +51,7 @@ generator = TopicAI()
 
 # Generate a report
 query = "artificial intelligence in genetics"
-html_output, query, html_pdf = generator.run_report(query, output_dir="your output directory")
+html_output, query, html_pdf = generator.run_report(query, output_dir="your output directory", csv_path = 'optional csv_path')
 
 if html_pdf == "failure":
     print(f"Error: {html_output}")
